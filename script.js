@@ -51,5 +51,40 @@
 // string()
 
 // write a function that returns that returns the longest word in a sentence
+// function longestWord(){
+//     You=parseInt(prompt("enter your full name"))
+//     console.log(You.length)
+// }
+
+// longestWord()
+
+// function longestWord(){
+//     You=prompt("full name")
+//     console.log(You.length)
+//     console.log(You.split(" "))
+//     // console.log(Math.max(You.split(" ")))
+// }
+
+// longestWord()
 
 
+
+
+// write a function to get the area of a circle
+// let areaOfaCircle = (r,h) => {
+//     result = 1/3 * (Math.PI * r * h);
+//     console.log(result);
+// }
+
+// areaOfaCircle(12,5);
+// areaOfaCircle(7,9);
+
+// //quadraticEquation
+let quadraticEquation =(a,b,c) => {
+    let d = b**2 - 4*a*c;
+    let rootOne = ((-b + Math.sqrt(d))/(2*a));
+    let rootTwo = ((-b - Math.sqrt(d))/(2*a));
+    console.log(`the first root is ${rootOne} the second root is ${rootTwo}`)
+}
+
+quadraticEquation(1, 5, 6)
