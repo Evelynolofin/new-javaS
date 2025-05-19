@@ -80,11 +80,36 @@
 // areaOfaCircle(7,9);
 
 // //quadraticEquation
-let quadraticEquation =(a,b,c) => {
-    let d = b**2 - 4*a*c;
-    let rootOne = ((-b + Math.sqrt(d))/(2*a));
-    let rootTwo = ((-b - Math.sqrt(d))/(2*a));
-    console.log(`the first root is ${rootOne} the second root is ${rootTwo}`)
+// let quadraticEquation =(a,b,c) => {
+//     let d = b**2 - 4*a*c;
+//     let rootOne = ((-b + Math.sqrt(d))/(2*a));
+//     let rootTwo = ((-b - Math.sqrt(d))/(2*a));
+//     console.log(`the first root is ${rootOne} the second root is ${rootTwo}`)
+// }
+
+// quadraticEquation(1, 5, 6)
+
+
+// write a program that determines if a year is a leap year
+
+function year (Lyear){
+       let result= Lyear%4;
+       if (result === 0){
+            alert(`${Lyear} is a leap year`)
+            console.log(`${Lyear} is a leap year`)
+       }
+       else if(isNaN(Lyear)){
+        alert("enter a valid year")
+        console.log("enter a valid year")
+       }
+       else{
+        alert(`${Lyear} is not a leap year`)
+        console.log(`${Lyear} is not a leap year`)
+       }
+
 }
 
-quadraticEquation(1, 5, 6)
+year(2008);
+year(2021);
+year(2004);
+year("frjk")
