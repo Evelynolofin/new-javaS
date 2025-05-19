@@ -1,0 +1,55 @@
+// // write a function that divides two numbers
+// const number = (num1, num2 ) => {
+//    num1= parseInt(prompt('enter any number'))
+//    num2= parseInt(prompt("enter any number"))
+//     let result= num1/num2
+//     console.log(result);
+// }
+// number();
+
+
+// // write a function that checks if a number is even or odd
+// function checkNumber(){
+//     even= parseInt(prompt("enter a number"));
+//     if(even%2===0){
+//         alert(`${even} is an even number`)
+//         console.log(`${even} is an even number`)
+//     } else if (isNaN(even)){
+//     alert(`${even} is not a valid number`)
+//         console.log(`${even} is not a valid number`)
+//     }else{
+//         alert(`${even} is an odd number`)
+//         console.log(`${even} is an odd number`)
+//     }
+   
+// }
+// checkNumber();
+
+// write a function that returns the largest of three numbers.
+// function checkMax (){
+//     let num1 = parseInt(prompt("enter a number"))
+//     let num2 = parseInt(prompt("enter a number"))
+//     let num3 = parseInt(prompt("enter a number"))
+//     console.log(Math.max(num1,num2,num3))
+//     // console.log(Math.min(num1,num2,num3))
+// }
+// checkMax();
+
+// function checkMin(numone,numtwo,numberthree){
+//     console.log(Math.min(numone, numtwo,numberthree))
+// }
+
+// checkMin(1,2,3);
+
+
+// write a function that reverse a string
+// function string(){
+//        let result = prompt("enter your name")
+//        console.log(result.split("") .reverse() .join(""))
+// }
+
+// string()
+
+// write a function that returns that returns the longest word in a sentence
+
+
