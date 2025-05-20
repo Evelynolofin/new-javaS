@@ -112,4 +112,19 @@ function year (Lyear){
 year(2008);
 year(2021);
 year(2004);
-year("frjk")
+year("frjk");
+
+
+checkPerimeter=(l, w) => {
+    result= 2*(l+w)
+    console.log(result)
+
+}
+
+checkPerimeter(12, 6)
+checkPerimeter(3,5)
+
+
+for(let i=0; i <= 10; i++){
+    console.log("the value of i:", i)
+}
