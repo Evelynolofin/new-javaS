@@ -51,80 +51,62 @@
 // string()
 
 // write a function that returns that returns the longest word in a sentence
-// function longestWord(){
-//     You=parseInt(prompt("enter your full name"))
-//     console.log(You.length)
+ 
+
+
+
+// for (let i = 0; i < 5; i++){
+//     console.log('This is the value of i', i)
 // }
 
-// longestWord()
-
-// function longestWord(){
-//     You=prompt("full name")
-//     console.log(You.length)
-//     console.log(You.split(" "))
-//     // console.log(Math.max(You.split(" ")))
+// for(let startingIndex = 1; startingIndex < 50; startingIndex++){
+//     if(startingIndex % 2 === 0){
+//         console.log(startingIndex, "is an even number")
+//     }
+//     else{
+//         console.log(startingIndex, "is an odd number")
+//     }
 // }
 
-// longestWord()
-
-
-
-
-// write a function to get the area of a circle
-// let areaOfaCircle = (r,h) => {
-//     result = 1/3 * (Math.PI * r * h);
-//     console.log(result);
+// for( let a = 5; a <= 20; a++){
+//     console.log("this is the value of A:", a)
 // }
 
-// areaOfaCircle(12,5);
-// areaOfaCircle(7,9);
 
-// //quadraticEquation
-// let quadraticEquation =(a,b,c) => {
-//     let d = b**2 - 4*a*c;
-//     let rootOne = ((-b + Math.sqrt(d))/(2*a));
-//     let rootTwo = ((-b - Math.sqrt(d))/(2*a));
-//     console.log(`the first root is ${rootOne} the second root is ${rootTwo}`)
+// let score = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+// for (let i = 0; i < 9; i++)
+//     {
+//     console.log('score = ',score[i])
 // }
 
-// quadraticEquation(1, 5, 6)
+
+// for(let B = 1; B <= 50; B++){
+//     console.log(B, " is the value of B")
+// }
+
+console.log(document.getElementsByClassName("text"))
+console.log(document.getElementsByClassName("text")[0].innerText)
+console.log(document.getElementById("header"))
+console.log(document.getElementById("header").innerText)
+console.log(document.getElementsByClassName("box"))
+console.log(document.getElementsByClassName("btn"))
+console.log(document.querySelector("p"))
+console.log(document.querySelectorAll("p"))
+console.log(document.querySelectorAll("li"))
+console.log(document.querySelectorAll("li")[2].innerText)
+console.log(document.querySelectorAll("li")[3].innerHTML)
+console.log(document.querySelectorAll("li")[3].innerText = "garri")
+console.log(document.getElementById("header").textContent = "I am Evelyn")
 
 
-// write a program that determines if a year is a leap year
-
-function year (Lyear){
-       let result= Lyear%4;
-       if (result === 0){
-            alert(`${Lyear} is a leap year`)
-            console.log(`${Lyear} is a leap year`)
-       }
-       else if(isNaN(Lyear)){
-        alert("enter a valid year")
-        console.log("enter a valid year")
-       }
-       else{
-        alert(`${Lyear} is not a leap year`)
-        console.log(`${Lyear} is not a leap year`)
-       }
-
+const student = {
+    name: "Evelyn",
+    mail: "evelynolofin@gmail.com",
+    gender: "female",
+    age: 28,
+    
 }
 
-year(2008);
-year(2021);
-year(2004);
-year("frjk");
-
-
-checkPerimeter=(l, w) => {
-    result= 2*(l+w)
-    console.log(result)
-
-}
-
-checkPerimeter(12, 6)
-checkPerimeter(3,5)
-
-
-for(let i=0; i <= 10; i++){
-    console.log("the value of i:", i)
-}
+console.log(student)
+console.log(Object.keys(student))
+console.log(Object.values(student))
